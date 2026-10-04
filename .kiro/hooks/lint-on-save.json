@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Lint TypeScript Files on Save",
+      "trigger": "PostFileSave",
+      "description": "Automatically run oxlint when TypeScript/TSX files are saved",
+      "matcher": "\\.(ts|tsx)$",
+      "action": {
+        "type": "command",
+        "command": "npm run lint"
+      }
+    }
+  ]
+}

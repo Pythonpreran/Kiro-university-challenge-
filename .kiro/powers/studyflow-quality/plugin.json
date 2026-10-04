@@ -1,0 +1,24 @@
+{
+  "id": "studyflow-quality",
+  "name": "StudyFlow Quality Power",
+  "version": "1.0.0",
+  "description": "Reusable knowledge for StudyFlow development: React/TypeScript patterns, task management UI, validation, accessibility, testing, and localStorage safety.",
+  "author": "StudyFlow Team",
+  "main": "skills/studyflow-quality/SKILL.md",
+  "skills": [
+    {
+      "name": "studyflow-quality",
+      "path": "skills/studyflow-quality/SKILL.md"
+    }
+  ],
+  "references": [
+    {
+      "name": "accessibility-checklist",
+      "path": "references/accessibility-checklist.md"
+    },
+    {
+      "name": "testing-patterns",
+      "path": "references/testing-patterns.md"
+    }
+  ]
+}

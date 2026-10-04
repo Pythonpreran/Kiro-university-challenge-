@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Tests on Test File Save",
+      "trigger": "PostFileSave",
+      "description": "Run tests when test files are modified",
+      "matcher": "\\.test\\.(ts|tsx)$",
+      "action": {
+        "type": "command",
+        "command": "npm test -- --run"
+      }
+    }
+  ]
+}
